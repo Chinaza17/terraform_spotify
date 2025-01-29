@@ -1,0 +1,9 @@
+# Ignore .env file containing sensitive keys
+.env
+
+# Ignore terraform variables file (if it contains sensitive information)
+terraform.tfvars
+
+# Ignore any backup or sensitive files
+*.tfstate
+*.tfstate.backup
